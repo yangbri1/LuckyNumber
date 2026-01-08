@@ -7,6 +7,7 @@ public class LuckyNumber {
         // create Scanner object to collect stream from console
         Scanner scanner = new Scanner(System.in);
         String inputStr = scanner.nextLine();
+        // .close() Scanner obj & flush stream after use --- prevent memory leaks
         scanner.close();
 		//write the logic to implement the solution
 		// int inputNum = 1623;
